@@ -1,30 +1,55 @@
 html,
 body {
-    background-color: #FFD5CD;
-    color: black;
-    height: 100%;
+    background-color: black;
+    color: whitesmoke;
+
 }
 
 header {
-    background-color: #C3AED6;
+    background-color: #9933FF;
     text-align: center;
 }
 
+h1>a:link,
+h1>a:visited {
+    color: black;
+}
+
 body>section {
-    height: 60%;
+    margin: 10px auto;
+    max-width: 1000px;
+    min-height: 100vh;
 }
 
 header>ul>li {
-    display: inline-flex;
+    display: inline;
+    padding: 10px 20px;
+}
+
+header>ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
 }
 
 footer {
-    background-color: #8675A9;
+    background-color: #9933FF;
     justify-content: space-evenly;
     display: flex;
+    margin-top: auto;
+    padding: 10px 0;
 }
-
 
 * {
     margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:link {
+    color: white;
 }
