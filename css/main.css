@@ -1,0 +1,30 @@
+html,
+body {
+    background-color: #FFD5CD;
+    color: black;
+    height: 100%;
+}
+
+header {
+    background-color: #C3AED6;
+    text-align: center;
+}
+
+body>section {
+    height: 60%;
+}
+
+header>ul>li {
+    display: inline-flex;
+}
+
+footer {
+    background-color: #8675A9;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+* {
+    margin: 0;
+}
