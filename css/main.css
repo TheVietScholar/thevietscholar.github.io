@@ -1,24 +1,28 @@
+:root {
+    --color1: #939185;
+}
+
 html,
 body {
-    background-color: black;
+    background-color: EEEDEB;
     color: whitesmoke;
 
 }
 
 header {
-    background-color: #9933FF;
+    background-color: #2F3645;
     text-align: center;
 }
 
 h1>a:link,
 h1>a:visited {
-    color: black;
+    color: var(--color1);
 }
 
 body>section {
     margin: 10px auto;
     max-width: 1000px;
-    min-height: 90vh;
+    min-height: 95vh;
 }
 
 header>ul>li {
@@ -33,7 +37,7 @@ header>ul {
 }
 
 footer {
-    background-color: #9933FF;
+    background-color: #2F3645;
     justify-content: space-evenly;
     display: flex;
     margin-top: auto;
