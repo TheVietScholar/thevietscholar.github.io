@@ -1,0 +1,59 @@
+:root {
+    --color1: #939185;
+}
+
+html,
+body {
+    background-color: EEEDEB;
+    color: black;
+
+}
+
+header {
+    background-color: #2F3645;
+    text-align: center;
+}
+
+h1>a:link,
+h1>a:visited {
+    color: var(--color1);
+}
+
+body>section {
+    margin: 10px auto;
+    max-width: 1000px;
+    min-height: 95vh;
+}
+
+header>ul>li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+header>ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+footer {
+    background-color: #2F3645;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:link {
+    color: white;
+}
