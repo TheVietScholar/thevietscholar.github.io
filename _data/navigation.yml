@@ -1,10 +1,16 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Portfolio
-  link: /portfolio.html
-- name: Contact
-  link: /contact.html
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "About Me"
+    url: /about/
+  - title: "External Link"
+    url: https://google.com
+    target: _blank

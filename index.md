@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
+author_profile: true
 title: Home
 ---
 
-<h1>{{ "Hello World!" }}</h1>
+<p> Welcome to the site of Matthew Nguyen! <p>
