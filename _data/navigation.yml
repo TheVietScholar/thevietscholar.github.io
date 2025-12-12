@@ -1,6 +1,4 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
   - title: "Portfolio"
@@ -11,6 +9,6 @@ main:
     url: /page-archive/
   - title: "About Me"
     url: /about/
-  - title: "External Link"
-    url: https://google.com
-    target: _blank
+  # - title: "External Link"
+  #   url: https://google.com
+  #   target: _blank
