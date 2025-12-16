@@ -5,7 +5,7 @@ var store = [{
         "url": "/portfolio/Test/",
         "teaser": "/assets/images/foo-bar-identity-th.jpg"
       },{
-        "title": "Test",
+        "title": "Test Post",
         "excerpt":"THIS IS A TEST.  ","categories": [],
         "tags": [],
         "url": "/Test/",
@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Tattoo ideas",
-        "excerpt":"I have lots of ideas for tattoos! Don’t think I will ever do it, but it would be nice.  ","categories": [],
+        "excerpt":"I have lots of ideas for tattoos! Don't think I will ever do it, but it would be nice.  ","categories": [],
         "tags": [],
         "url": "/Tattoo-Ideas/",
         "teaser": null
